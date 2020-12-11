@@ -1,0 +1,136 @@
+.gallery {
+    margin: 10px;
+    border: 3px solid black;
+    width: 347px;
+    float: left;
+    height: 233px;;
+    margin-right: 20px;
+    margin-top:20px;
+  }
+.gallery:hover {
+    border: 1px solid teal;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .album{
+      margin-left: 10px;
+  }
+
+
+  .gallery2 {
+    margin: 10px;
+    border: 3px solid black;
+    width: 347px;
+    float: left;
+    height: 233px;;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+.gallery2:hover {
+    border: 1px solid teal;
+  }
+  
+.gallery2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc2 {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .album2{
+      margin-left: 10px;
+  }
+
+
+  .gallery3 {
+    margin: 10px;
+    border: 3px solid black;
+    width: 347px;
+    float: left;
+    height: 233px;;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+.gallery3:hover {
+    border: 1px solid teal;
+  }
+  
+.gallery3 img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc3 {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .album3{
+      margin-left: 10px;
+  }
+
+
+  .gallery4 {
+    margin: 10px;
+    border: 3px solid black;
+    width: 347px;
+    float: left;
+    height: 233px;;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+.gallery4:hover {
+    border: 1px solid teal;
+  }
+  
+.gallery4 img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc4 {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .album4{
+      margin-left:25%
+  }
+
+
+
+
+  @keyframes animatio {
+    10% {background-color: teal;}
+     25%  {background-color:pink;}
+      50%  {background-color: rgb(90, 216, 203);}
+      100%  {background-color: rgb(175, 223, 81)}
+    }
+
+
+body{
+    animation-duration: 20s;
+    animation-name: animatio;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    
+}
+
+
